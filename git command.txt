@@ -1,0 +1,30 @@
+sudo su
+ git config --global user.name "Rishi"  
+ git config --global user.email "kant.rishi013@gmail.com"
+mkdir demo
+cd demo
+git init
+cat >file1
+hi I am rishi
+
+git add file1
+git status
+git commit -m "First commit from Patna"
+git remote add origin https://github.com/Rishi382/JavaCodes.git
+git push -u origin master
+username- Rishi382
+password- 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
+cd ..
+mkdir demo1
+cd demo1
+git init
+git pull https://github.com/sahrohit846/java-codes.git
+ls -al
+touch file3 file4 file5
+git add -A
+git commit -m "I have added some files"
+
+git remote add origin https://github.com/sahrohit846/java-codes.git
+git push -u origin master
+username-sahrohit846
+password- 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
